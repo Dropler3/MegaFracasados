@@ -2,8 +2,7 @@ var cx = display_get_gui_width() / 2;
 var cy = display_get_gui_height() / 2;
 
 //Fondo
-draw_set_color(c_black);
-draw_rectangle(0, 0, display_get_gui_width(), display_get_gui_height(), false);
+draw_sprite_stretched(spr_fondo, 0, 0, 0, display_get_gui_width(), display_get_gui_height());
 
 //Titulo
 draw_set_font(fnt_titulo);

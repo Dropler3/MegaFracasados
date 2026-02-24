@@ -5,10 +5,8 @@ var cy = display_get_gui_height() / 2;
 draw_sprite_stretched(spr_fondo, 0, 0, 0, display_get_gui_width(), display_get_gui_height());
 
 //Titulo
-draw_set_font(fnt_titulo);
-draw_set_color(c_white);
-draw_set_halign(fa_center);
-draw_text(cx, 120, "MEGA FRACASADOS");
+var escala = 1 + sin(current_time * 0.002) * 0.03;
+draw_sprite_ext(spr_titulo, 0, cx, 100, escala, escala, 0, c_white, 1);
 
 for (var i = 0; i < array_length(opciones); i++) {
     var bx = cx - 100;

@@ -23,5 +23,6 @@
     {"name":"spr_ataque","order":2,"path":"sprites/spr_ataque/spr_ataque.yy",},
     {"name":"spr_fondo","order":3,"path":"sprites/spr_fondo/spr_fondo.yy",},
     {"name":"spr_prueba","order":1,"path":"sprites/spr_prueba/spr_prueba.yy",},
+    {"name":"spr_titulo","order":4,"path":"sprites/spr_titulo/spr_titulo.yy",},
   ],
 }

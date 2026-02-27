@@ -45,6 +45,7 @@
     {"id":{"name":"spr_ataque","path":"sprites/spr_ataque/spr_ataque.yy",},},
     {"id":{"name":"spr_fondo","path":"sprites/spr_fondo/spr_fondo.yy",},},
     {"id":{"name":"spr_prueba","path":"sprites/spr_prueba/spr_prueba.yy",},},
+    {"id":{"name":"spr_titulo","path":"sprites/spr_titulo/spr_titulo.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
   ],
   "resourceType":"GMProject",
